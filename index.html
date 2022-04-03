@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculadora vandin</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body background="img/back.jpg">
+  <nav>
+      <img src="img/nota10.png"
+     </nav>
+    <header>
+      <h1>Calcular Média</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div>
+            <fieldset style="width: 50%;">  
+              <legend>Primeira nota: </legend>
+              <div>
+                <label>1º: </label>
+                <input id="nota-um" type="number" value="0"></input>
+              </div>
+            </fieldset>
+            <fieldset style="width: 50%;">
+              <legend>Segunda nota: </legend>
+              <div>
+                <label for="nota-dois">2º</label>
+                <input id="nota-dois" type="number" value="0"/>
+              </div>
+            </fieldset >
+             <fieldset style="width: 50%;">
+              <legend>Terceira nota: </legend> 
+               <div>             
+                <label>3º: </label>
+                <input id="nota-tres" type="number" value="0"></input>
+              </div>
+            </fieldset>
+         <button onclick="calcularMediaAluno()">Calcular</button>
+          </div>
+        </article>
+        <footer>
+          <h3>
+            <span id="resposta">Media: 0 </span>
+            <p>--------------</p>
+          </h3>
+           <h3>
+            <span id="resultado">Situação: 0</span>
+            <p>--------------</p>
+          </h3>
+        </footer>
+      </section>
+      
+    </main>
+    <footer>Feito por; Edvando Simplício. </footer>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
